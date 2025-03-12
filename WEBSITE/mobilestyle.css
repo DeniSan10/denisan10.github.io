@@ -21,6 +21,12 @@ a {
   opacity: 0;
 }
 
+@media screen and (max-width: 900px) {
+  _::-webkit-full-page-media, _:future, :root .safari_only {
+      padding-bottom: 65px;
+  }
+}
+
 
 #lightbox {
   position: fixed;
