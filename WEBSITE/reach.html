@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="mobilestyle.css" media="screen and (max-width: 1600px)">
     <link rel="icon" href="../ARTWORK/moon.png" type="image/png">
 </head>
-
+<script src="mascot.js" defer></script>
 <body class="fade-container">
     <audio id="bg-audio" src="audio/fam.mp3"></audio>
-
+    
     <audio id="appear-sound" src="audio/appear.mp3" preload="auto"></audio>
 
     <header>
@@ -83,11 +83,13 @@
             <p>Music composed by <a href="https://www.youtube.com/@WhiteBatAudio" target="_blank">White Bat Studio</a>,
                 make sure you check them out!</p>
         </article>
+
         <aside id="mascot" class="mascot-container">
-            <img id="mascot-img" src="../ARTWORK/CREATION.png" alt="Mascot" class="mascot-img">
-            <div class="message-box">
+            <img id="eye" src="../ARTWORK/eye.png" alt="">
+            <img id="mascot-img" src="../ARTWORK/CREATION.png" alt="Mascot" class="mascot-img" style="display: none;">
+            <div class="message-box" style="display: none;">
                 <p id="mascot-message">Hi there, mortal! If you're looking to support us, you've come to the perfect
-                    place. </p>
+                    place.</p>
             </div>
         </aside>
     </div>
@@ -113,8 +115,8 @@
             </div>
         </div>
     </footer>
+    
 
-    <script src="mascot.js"></script>
 </body>
 
 </html>
