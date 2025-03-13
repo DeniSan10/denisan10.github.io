@@ -784,11 +784,10 @@ aside::before {
 
 @keyframes moveScanline {
   0% {
-    transform: translateY(0);
+    transform: translateY(-25%);
   }
-
   100% {
-    transform: translateY(-50%);
+    transform: translateY(-75%);
   }
 }
 
