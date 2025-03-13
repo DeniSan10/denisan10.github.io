@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
+window.onload = function () {
+  document.querySelector('.scanline').style.animationPlayState = 'running';
+};
 
 document.querySelectorAll(".d-container").forEach(container => {
   const img = container.querySelector("img");
