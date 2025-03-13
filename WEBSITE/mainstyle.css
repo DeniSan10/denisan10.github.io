@@ -769,8 +769,6 @@ aside::before {
 
 .scanline {
   position: absolute;
-  will-change: transform;
-  animation-play-state: running;
   top: 0;
   left: 0;
   width: 100%;
@@ -788,8 +786,9 @@ aside::before {
   0% {
     transform: translateY(0);
   }
+
   100% {
-    transform: translateY(100%);
+    transform: translateY(-50%);
   }
 }
 
