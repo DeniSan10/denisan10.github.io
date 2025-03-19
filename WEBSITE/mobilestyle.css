@@ -1000,8 +1000,6 @@ aside::before {
 }
 
 #lightbox-description {
-  color: white;
-  text-align: center;
   font-size: clamp(0.7rem, 1.4vw, 1rem);
   line-height: 1.5;
   margin-top: 0.5rem;
@@ -1012,17 +1010,9 @@ aside::before {
 }
 
 #lightbox-close {
-  position: absolute;
   top: 10px;
   right: 10px;
   font-size: 1.5rem;
-  color: white;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 10001;
-  font-weight: bold;
-  transition: all 0.3s ease;
 }
 
 #lightbox-close:hover {
