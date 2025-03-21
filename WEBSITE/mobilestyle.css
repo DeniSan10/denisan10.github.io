@@ -467,7 +467,7 @@ aside::before {
   position: relative;
   display: block;
   margin: 20px auto;
-  width: clamp(100px, 10vw, 200px); 
+  width: clamp(100px, 9.5vw, 200px); 
   height: auto;
   box-shadow:
     0 0 15px rgba(255, 0, 0, 0.8),
@@ -485,7 +485,7 @@ aside::before {
   color: #ff7575;
   text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6);
   width: clamp(80px, 24vw, 250px); 
-  height: clamp(120px, 28vh, 300px); 
+  height: clamp(120px, 27vw, 300px); 
   margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
