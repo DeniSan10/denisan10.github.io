@@ -917,7 +917,7 @@ aside::before {
 }
 
 .art-title p {
-    font-size: clamp(10px, 1.5vw, 18px);
+    font-size: clamp(10px, 1.4vw, 18px);
   
 }
 
